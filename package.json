@@ -4,7 +4,7 @@
   "description": "JavaScript Asynchronism course project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/SoyAndresTrujillo/project-async-landing/issues"
   },
-  "homepage": "https://github.com/SoyAndresTrujillo/project-async-landing#readme"
+  "homepage": "https://github.com/SoyAndresTrujillo/project-async-landing#readme",
+  "dependencies": {
+    "fetch": "^1.1.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
