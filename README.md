@@ -1,2 +1,2 @@
 # project-async-landing
-JavaScript Asynchronism course project
+JavaScript Asynchronism project
